@@ -1,0 +1,21 @@
+header .fa {
+    font-size:3em;
+    color:#ef4b54;
+    /* font-family: 'EB Garamond', serif;   */
+    
+}
+header a {
+    color:#333;
+    text-decoration:none;
+    font-family: 'EB Garamond', serif;  
+    
+}
+header a:hover {
+    color:#ef4b54;
+    text-decoration:none;
+    
+}
+header p{
+    font-family: 'EB Garamond', serif;  
+    color:#333;  
+}

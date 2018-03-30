@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* HEADER */
+.header-left li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.header-left li a {
+    color:#ff6e76;
+    font-size:0.7em;
+}
+.header-left li a:hover {
+    color:black;
+    text-decoration: none;
+}
+.header-left .heading-categories {
+    font-family: 'EB Garamond', serif;
+    font-size:1.2em;
+    font-weight:bold;    
+}
+.header-left img {
+    vertical-align: middle;
+    text-align:center;
+    border:0;
+}
+.header-left .products a {
+    color:black;
+    font-size:1em;
+    text-align:center;
+    font-family: 'EB Garamond', serif;
+    
+    
+}
+.header-left .products a:hover {
+    color:#ff6e76;
+    font-size:1em;
+    text-align:center;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    
+}
+.header-left h6 {
+    color:#ff6e76;
+    text-decoration: line-through !important;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    
+}
+.header-left h5 {
+    font-style:italic;
+}
+/* HEADER RIGHT START */
+.header-right h2 {
+    color: #423930;
+    font-family: 'EB Garamond', serif;
+    font-size:2.5em;
+}
+.header-right label {
+    font-family: 'EB Garamond', serif;    
+}
+select {
+    font-family: 'EB Garamond', serif;    
+    outline-color: none;
+    border:none;
+    color: #80868b;
+    background-color:#ececec;
+} 
+ option {
+    font-family: 'EB Garamond', serif;    
+    outline-color: none;
+    
+   
+}
+.header-right li:last-child a:hover{
+    background-color: #ff6e76;
+    color:white !important;
+}
+.header-right nav {
+    margin-bottom:10px !important;
+}
+.our-products-heading {
+    margin-bottom:50px;
+}
+.first,.second,.third,.forth,.fifth,.sixth {
+    text-align: center;
+}
+.products-cols a{
+   color: #605346 !important;
+    font-size:1em;
+    display:block;
+    margin:10px;
+    font-family: 'EB Garamond', serif;  
+    
+}
+.products-cols a:hover{
+    color:#ff6e76 !important;
+    font-size:1em;
+    display:block;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+    margin:10px;
+    font-family: 'EB Garamond', serif;  
+    text-decoration: none;
+}
+.products-cols h5 {
+   font-weight: bold;
+   font-family: 'EB Garamond', serif;  
+   font-style: italic;
+   font-size:1.5em;
+}
+.products-cols h6 {
+    color: #ef4b54;
+    font-style: italic;
+    font-size:1em;
+    text-decoration: line-through !important;
+}
+.btn:hover{
+    background-color:#333 !important;
+    outline: none;
+    border-color:#333 !important;
+}
+/* end header */
+

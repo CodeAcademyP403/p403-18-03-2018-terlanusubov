@@ -1,0 +1,347 @@
+/* START TOP-PART-PAGE */
+@media screen and (max-width: 1100px) {
+    .nav-menu {
+        display: none;
+    }
+  }
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#Top-Part-Page {
+    background-image: url("../img/kofe.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:150px;
+}
+/* START NAV-TOP */
+.nav-top  {
+    background-color: #333;
+}
+.nav-top .nav-bar i {
+    color: #d0cdcd;
+    font-size: 1.2em;
+}
+.nav-top .nav-bar .nofiction {
+    font-size:0.5em;
+}
+/* END SECTION NAV TOP */
+
+/* START SECTION NAVIGATION */
+.Navigation {
+    background-color: rgba(59,55,53,0.32); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom:100px;
+}
+
+.Navigation .nav-P .logo-P{
+    font-size:30px;
+    font-style: italic;
+    color:white;
+    font-family: 'EB Garamond', serif;
+}
+.Navigation .nav-logo img {
+    width: 25px;
+}
+.Navigation .nav-P {
+    padding-top:20px;    
+}
+.nav-right {
+    padding-top:30px;
+}
+.nav-right li{
+   list-style-type: none;
+   display:flex;
+}
+.nav-right li a {
+    color: #d0cdcd;
+    padding-left:20px;
+    font-size:1em;
+    font-weight:bold;
+
+}
+.nav-right li a:hover {
+    color:#ff6e76;
+    padding-left:20px;
+    transition: all 0.2s ease-in-out;
+    font-weight:bold;
+    
+    
+}
+/* START HEADER */
+.middle-part .header-heading {
+    font-size:7em;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    color:white;
+    text-align: center;
+    
+}
+.middle-part .header-heading-2 {
+    font-size:2.1em;
+    color:white;
+    font-family: 'EB Garamond', serif;    
+    text-align: center;
+}
+.border{
+    border-top:5px solid white;
+    border-top:5px solid white;
+    padding:1px;
+    background-color:white;
+    margin-bottom:2px;
+    
+}
+.border-2 {
+    border-top:1px solid white;    
+}
+.header-List  {
+    text-align:center;
+}
+.header-List ul {
+    text-align:center;
+}
+.header-List ul li{
+    color:white;
+    font-size:1.2em;
+    font-family: 'EB Garamond', serif;    
+    list-style-type: none;
+    margin:10px;
+    
+}
+.header-List ul li a{
+   color:white;
+
+}
+.header-List ul li a:hover{ 
+    color:#ff6e76;
+   transition: all 0.2s ease-in-out;
+   text-decoration: none;
+}
+.header-List {
+    margin-bottom:100px;
+}
+/* HEADER END */
+/* TOP-PART -SECTION END */
+
+/* START MIDDLE SECTION */ 
+.Middle-part-section .heading-middle-1 {
+    color: #423930;
+    font-family: 'EB Garamond', serif;  
+    font-size:2.5em;  
+    
+}
+.middle-part-section-P {
+    border-top:3px solid #423930;
+    padding:1px;
+}
+.middle-part-section-P-2 {
+    border-top:1px solid #423930;
+    padding:1px;
+    margin-bottom:50px;
+}
+/* PRODUCTS */
+.products a {
+    font-size:3.5em;
+    color:white !important ;
+    font-family: 'EB Garamond', serif;   
+}
+.products a:hover {
+    font-size:3.5em;
+    color:#ff6e76 !important;
+    font-family: 'EB Garamond', serif; 
+    cursor:pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration:none;
+}
+.products p {
+    color:white;
+    font-size:1.1em;
+    font-family: 'EB Garamond', serif;  
+    cursor: pointer;   
+    
+}
+.first-product {
+    background-image: url("../img/kofe.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding:200px 50px;
+    
+}
+.border-line-product {
+    border-top:3px solid #FFF;
+    padding:1px;
+}
+.border-line-product-2 {
+    border-top:1px solid #FFF;
+    padding:1px;
+   
+}
+.second-product {
+    background-image: url("../img/kofe-product.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding:200px 50px;
+}
+.third-product {
+    background-image: url("../img/kofe-product-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding:200px 50px;
+}
+/*  END PRODUCTS COLUMNS */
+#products {
+ margin-bottom:100px;
+}
+/* OUR PRODUCTS */
+.our-products-heading {
+    margin-bottom:50px;
+}
+.first,.second,.third,.forth {
+    text-align: center;
+    position: relative;
+
+}
+.our-products-cols a{
+   color: #605346 !important;
+    font-size:1em;
+    display:block;
+    margin:10px;
+    font-family: 'EB Garamond', serif;  
+    
+}
+.our-products-cols a:hover{
+    color:#ff6e76 !important;
+    font-size:1em;
+    display:block;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+    margin:10px;
+    font-family: 'EB Garamond', serif;  
+    text-decoration: none;
+}
+.our-products-cols h5 {
+   font-weight: bold;
+   font-family: 'EB Garamond', serif;  
+   font-style: italic;
+   font-size:1.5em;
+}
+.our-products-cols h6 {
+    color: #ef4b54;
+    font-style: italic;
+    font-size:1em;
+    text-decoration: line-through !important;
+}
+#overlay {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background:#ababab;
+    z-index: 2;
+    opacity: 0.5;
+    display: none;
+}
+.our-products-cols .img:hover #overlay{
+    display:block;
+    cursor: pointer;  
+}
+.our-products-cols .img:hover .fa {
+    display:block;
+    cursor: pointer;
+}
+.our-products-cols .fa {
+    padding:2px 2px;
+    background-color:white;
+    color:#ef4b54;
+    position: absolute;
+    top:100px;
+    right:120px;
+    z-index: 3;
+    display: none;
+
+}
+/* .our-products-img1 {
+    background-image: url("../img/cognito.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px;
+
+}
+.our-products-img2 {
+    background-image: url("../img/crazy-cat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px;
+    
+}
+.our-products-img3 {
+    background-image: url("../img/arabic-cofe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px;
+    
+}
+.our-products-img4 {
+    background-image: url("../img/grumpy-mule.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px;
+} */
+.our-products-cols i {
+    display:none;
+    font-size:1.5em;
+    color:#ff6e76;
+}
+.btn:hover{
+    background-color:#333 !important;
+    outline: none;
+    border-color:#333 !important;
+}
+.our-products-cols {
+    margin-bottom:100px;
+}
+/* END OF OUR PRODUCTS */
+.CoffeShop {
+    background-image: url("../img/kofe.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:100px 50px;
+    margin-bottom:100px;
+}
+.CoffeShop-heading {
+    color:white;
+    font-family: 'EB Garamond', serif;  
+
+}
+.CoffeShop-pragraph {
+    color:white;
+    font-size:1.6em;
+    font-family: 'EB Garamond', serif;  
+}
+/* END COFEE SHOP */
+/* START FOOTER */
+footer {
+    padding:100px;
+    background-color:#211f1e;
+}
+footer a {
+    color:white;
+
+}
+footer a:hover {
+    color:#ff6e76;
+    transition: all 0.2s ease-in-out;
+}

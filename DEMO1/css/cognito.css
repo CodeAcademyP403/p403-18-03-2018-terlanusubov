@@ -1,0 +1,26 @@
+.header-top .header-col-right h1{
+    font-family: "EB Garamond", serif;
+    color: rgb(66, 57, 48);
+}
+.header-top .header-col-right span {
+    font-size:0.8em;
+    color:#ababab;
+    font-family: "EB Garamond", serif;
+    
+}
+  p{
+    color: rgb(116, 116, 116);
+    font-family: "EB Garamond", serif;
+    font-size:1.2em;
+
+}
+.header-top .header-col-right i {
+    font-size:2.5em;
+    margin-right:5px;
+}
+.header-top .header-col-right i:hover {
+    color: #ff6e76;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+}
+/* END HEADER TOP */

@@ -1,0 +1,212 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}/* START NAV-TOP */
+.nav-top  {
+    background-color: #333;
+}
+.nav-top .nav-bar i {
+    color: #d0cdcd;
+    font-size: 1.2em;
+}
+.nav-top .nav-bar .nofiction {
+    font-size:0.5em;
+}
+/* END SECTION NAV TOP */
+/* START SECTION NAVIGATION */
+.Navigation {
+    background-color: rgb(82, 78, 78); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Navigation .nav-P .logo-P{
+    font-size:30px;
+    font-style: italic;
+    color:white;
+    font-family: 'EB Garamond', serif;
+}
+.Navigation .nav-logo img {
+    width: 25px;
+}
+.Navigation .nav-P {
+    padding-top:20px;    
+}
+.nav-right {
+    padding-top:30px;
+}
+.nav-right li{
+   list-style-type: none;
+   display:flex;
+}
+.nav-right li a {
+    color: #d0cdcd;
+    padding-left:20px;
+    font-size:1em;
+    font-weight:bold;
+
+}
+.nav-right li a:hover {
+    color:#ff6e76;
+    padding-left:20px;
+    transition: all 0.2s ease-in-out;
+    font-weight:bold;
+    
+    
+}
+/* END NAV BAR */
+/* START NAV BAR -2 */
+.navBar-2 {
+    background-color:#e9e7e7;
+    margin-bottom:100px;
+}
+.navBar-2 li {
+    list-style-type: none;
+    margin-right:5px;
+}
+.navBar-2 li a:hover {
+    color:#ff6e76;
+    transition:all 0.3s ease-in-out;
+    text-decoration:none; 
+    
+}
+.navBar-2 li a {
+    color: #605346;   
+    font-size:0.8em;
+}
+/* END NAV BAR -2 */
+/* HEADER */
+.header-left li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.header-left li a {
+    color:#ff6e76;
+    font-size:0.7em;
+}
+.header-left li a:hover {
+    color:black;
+    text-decoration: none;
+}
+.header-left .heading-categories {
+    font-family: 'EB Garamond', serif;
+    font-size:1.2em;
+    font-weight:bold;    
+}
+.header-left img {
+    vertical-align: middle;
+    text-align:center;
+    border:0;
+}
+.header-left .products a {
+    color:black;
+    font-size:1em;
+    text-align:center;
+    font-family: 'EB Garamond', serif;
+    
+    
+}
+.header-left .products a:hover {
+    color:#ff6e76;
+    font-size:1em;
+    text-align:center;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    
+}
+.header-left h6 {
+    color:#ff6e76;
+    text-decoration: line-through !important;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    
+}
+.header-left h5 {
+    font-style:italic;
+}
+/* HEADER RIGHT START */
+.header-right h2 {
+    color: #423930;
+    font-family: 'EB Garamond', serif;
+    font-size:2.5em;
+}
+.header-right label {
+    font-family: 'EB Garamond', serif;    
+}
+select {
+    font-family: 'EB Garamond', serif;    
+    outline-color: none;
+    border:none;
+    color: #80868b;
+    background-color:#ececec;
+} 
+ option {
+    font-family: 'EB Garamond', serif;    
+    outline-color: none;
+    
+   
+}
+.header-right li:last-child a:hover{
+    background-color: #ff6e76;
+    color:white !important;
+}
+.header-right nav {
+    margin-bottom:10px !important;
+}
+.our-products-heading {
+    margin-bottom:50px;
+}
+.first,.second,.third,.forth,.fifth,.sixth {
+    text-align: center;
+}
+.products-cols a{
+   color: #605346 !important;
+    font-size:1em;
+    display:block;
+    margin:10px;
+    font-family: 'EB Garamond', serif;  
+    
+}
+.products-cols a:hover{
+    color:#ff6e76 !important;
+    font-size:1em;
+    display:block;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+    margin:10px;
+    font-family: 'EB Garamond', serif;  
+    text-decoration: none;
+}
+.products-cols h5 {
+   font-weight: bold;
+   font-family: 'EB Garamond', serif;  
+   font-style: italic;
+   font-size:1.5em;
+}
+.products-cols h6 {
+    color: #ef4b54;
+    font-style: italic;
+    font-size:1em;
+    text-decoration: line-through !important;
+}
+.btn:hover{
+    background-color:#333 !important;
+    outline: none;
+    border-color:#333 !important;
+}
+/* end header */
+
+/* FOOTER */
+footer {
+    padding:100px;
+    background-color:#211f1e;
+}
+footer a {
+    color:white;
+
+}
+footer a:hover {
+    color:#ff6e76;
+    transition: all 0.2s ease-in-out;
+}

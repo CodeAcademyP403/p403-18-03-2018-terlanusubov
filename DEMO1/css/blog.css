@@ -1,0 +1,85 @@
+.left-blog .linkHeading {
+    font-style: italic;
+    color:#333;
+    font-family: 'EB Garamond', serif;  
+    word-spacing: 5px;
+    
+}
+.left-blog .linkHeading:hover {
+    color:#ff6e76;
+    font-family: 'EB Garamond', serif;  
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    word-spacing: 5px;
+    
+}
+.left-blog p {
+    color:#555;
+    font-family: 'EB Garamond', serif;  
+    font-size:1.3em;    
+}
+.left-blog button {
+    color:white;
+    word-spacing: 2px;
+    padding:15px 25px;
+    font-family: 'EB Garamond', serif;  
+    outline:none;
+    border-radius: 0px !important;
+}
+.left-blog button:hover {
+    background-color:#555;
+    border-color:#555;
+    cursor: pointer;
+}
+/* PAGINATION */
+.pagination li {
+    list-style-type: none;
+    margin-right:2px; 
+    margin-top:10px;
+    
+    background-color:#ece8e8;
+    font-family: 'EB Garamond', serif;  
+}
+.pagination li a {
+    color:#ababab;
+    text-decoration:none;
+    padding:5px 10px;
+}
+.pagination li:hover {
+    background-color:#eb464f;  
+}
+.pagination li a:hover {
+    color:white;
+    cursor:pointer;   
+}
+.pagination .active {
+    background-color:#eb464f;
+}
+.pagination .active a {
+    color:white;
+    text-decoration:none;
+    font-family: 'EB Garamond', serif;   
+}
+
+/* RIGHT BLOG */
+.right-blog img {
+    height:180px;   
+}
+.right-blog a {
+    text-decoration: none;
+    color:#555;
+    font-family: 'EB Garamond', serif;   
+    font-size:1.2em;
+}
+.right-blog a:hover {
+    color:#ff6e76;
+    transition: all 0.3s ease-in-out;
+    font-family: 'EB Garamond', serif;   
+    font-size:1.2em;
+}
+.blog-heading-right-row {
+    font-style: italic;
+    color:#333;
+    font-family: 'EB Garamond', serif;  
+    word-spacing: 5px;
+}

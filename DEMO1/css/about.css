@@ -1,0 +1,93 @@
+/* ROW HEADINGS */
+.mainHeader .headingHeader{
+    color: #211f1e;
+    font-family: 'EB Garamond', serif;
+    font-size:4em;
+}
+.mainHeader .paragraphHeader {
+    color: #333;
+    font-size:1.5em;
+    text-align:center;
+    font-family: 'EB Garamond', serif;
+    
+}
+/* ROW ICONS */
+.row-header-icon-part i {
+    font-size:4em;
+    color:#ff6e76;
+}
+.row-header-icon-part h2,p {
+    text-align:center;
+}
+.row-header-icon-part h2 {
+    color: #211f1e;
+    font-family: 'EB Garamond', serif;
+    font-weight:bold;
+}
+.row-header-icon-part p {
+    color: #333;
+    font-family: 'EB Garamond', serif;
+    font-size:1.2em;
+    
+    
+}
+/* ROW NUMBERS */
+.row-number-part {
+    background-color:rgb(73, 50, 50);
+}
+.row-number-part h1,h2 {
+    text-align: center;
+    color:white;
+    font-family: 'EB Garamond', serif;
+      
+}
+.row-number-part h1 {
+    font-style:italic;
+    font-size:5em;
+}
+.row-number-part h2 {
+    font-weight:bold;
+    font-size:1.5em;
+}
+/* ROW-MANAGER-PART */
+.row-managers-part img {
+    clip-path: circle(47.5% at 50% 50%);
+}
+.row-managers-part h3,a,p {
+    text-align: center;
+}
+.row-managers-part h3 {
+    font-family: 'EB Garamond', serif;
+    font-size:1.5em;
+    font-weight:bold;    
+}
+.row-managers-part a {
+    color:#ff6e76;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    
+}
+.row-managers-part p {
+    font-family: 'EB Garamond', serif;
+    color: #333;    
+    font-size:1.2em;
+}
+.row-managers-part i {
+    margin-right:10px;
+    background-color:#e0e0e0;
+    padding:5px 5px;
+    color:#ababab;
+}
+.row-managers-part i:hover {
+    color:#ff6e76;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+/* END MANAGERS */
+
+/* END HEADERS */
+
+
+
+
+
