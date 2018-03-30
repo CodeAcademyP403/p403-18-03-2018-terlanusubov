@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.nav-heading {
+    font-size:5em;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
+.nav-heading-2 {
+    font-size:1em;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+.learn-more {
+    width: 120px;
+    height:50px;
+    border:2px solid white;
+    text-align: center;
+    padding:10px;
+    margin:50px;
+}
+.learn-more:hover {
+    background-color:white;
+}
+.learn-more:hover p {
+    color:#033958;
+}
+.learn-more p {
+    color:white;
+    font-weight:bold;
+    font-size:1.2em;
+}
+/* section middle part */
+/* WHY WE ARE DIFFERENT */
+#why-we-different {
+    padding-top:80px;
+    padding-bottom:80px;
+    position: relative;
+    
+}
+#why-we-different:before{
+    content: "";
+    background: #033958;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+}
+#why-we-different .heading {
+    text-align:center;
+}
+
+#main-img {
+    background-image: url("../img/bg-img-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+#why-we-different .circle {
+   width:100px;
+   height:100px;
+   border-radius: 100px;
+   border:2px solid white;
+   text-align:center;
+   padding:20px;
+   
+}
+#why-we-different i {
+    font-size:3em;
+    color:white;
+}
+#why-we-different h3 {
+    color:white;
+    font-weight:bold;
+}
+#why-we-different .paragraph {
+    color:white;
+    font-weight:bold;
+    font-size:1em;
+    text-align:center;
+}
+#why-we-different .rotate {
+    transform: rotate(-90deg);
+}
+/* CONTINUE MIDDLE PART */
+
+
+/* BEST WINTER TRIPS */
+
+
+#overlay {
+    /* position: fixed; Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(57, 60, 250, 0.5); /* Black background with opacity */
+    z-index:2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    position: absolute;
+}
+#best-winter-trips .first-img {
+    background-image: url("../img/page1_img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+   
+    
+}
+#best-winter-trips .second-img {
+    background-image: url("../img/page1_img2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#best-winter-trips .third-img {
+    background-image: url("../img/page1_img3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#best-winter-trips .forth-img{
+    background-image: url("../img/page1_img4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#best-winter-trips .trips span {
+    padding:2px 15px;
+    padding-bottom:5px;
+    background-color:#db383c;
+    color:white;
+    font-weight: bold;
+
+}
+#best-winter-trips .trips .col-lg-5 span {
+    position: relative;
+    z-index:3;
+}
+#best-winter-trips .trips .col-lg-5:hover #overlay{
+    cursor: pointer;
+    display: block;
+    transition: all 0.4s ease-in-out;
+}
+#best-winter-trips .trips .col-lg-5:hover {
+    cursor: pointer;
+}
+#best-winter-trips .trips .col-lg-5:hover span{
+    background-color: #033958;
+    cursor: pointer;
+}
+.view-button {
+    width: 200px;
+    height:50px;
+    background-color:#db383c;
+    text-align:center;
+    padding:10px;
+}
+.view-button:hover {
+    background-color: #033958;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.view-button a {
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+}
+.view-button a:hover {
+    text-decoration: none;    
+}
+
+/* END BEST WINTER TRIPS */
+
+
+/* BOOK NOW */
+#book-now {
+    position: relative;
+}
+#book-now:before{
+    content: "";
+    background: #033958;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+}
+#book-now .book-now {
+    width: 100px;
+    height:50px;
+    background-color:#db383c;
+    text-align:center;
+    padding:10px;
+}
+#book-now .book-now:hover {
+    background-color: #032436;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+#book-now .book-now a {
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+}
+#book-now .book-now a:hover {
+    text-decoration: none;    
+}
+/* END BOOK NOW */
+
+
+/* LATEST NEWS */
+#latest-new .latest-new .fa {
+    color:#032436;
+    margin-right:5px;
+}
+#latest-new .latest-new .icon-p {
+    font-size:0.8em;
+    color:#032436;
+}
+#latest-new .heading-link-news {
+    color:#db383c;
+    font-size:1.2em;
+    font-weight:bold;
+}
+#latest-new .heading-link-news:hover {
+    text-decoration: none;
+    color:#032436;
+    transition: all 0.3s ease-in-out;
+}
+#latest-new .news-p {
+    color: #393a3c;
+    font-size:1em;
+}
+.cart-rides {
+    width: 70px;
+    height:30px;
+    background-color:#0772ba;
+    text-align:center;
+}
+.tours {
+    width: 50px;
+    height:30px;
+    background-color:#0772ba;
+    text-align:center;
+    
+}
+#latest-new .tours:hover{
+    background-color: #db383c;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.cart-rides:hover {
+    background-color: #db383c;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.tours a {
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+}
+.cart-rides a {
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+}
+.cart-rides a:hover {
+    text-decoration: none;    
+}
+.tours a:hover {
+    text-decoration: none;    
+}
+
+/* END LATEST NEWS */
+/* start footer */
+
+/* FOOTER 1 */
+#footer1 {
+    padding:50px;
+    position: relative;
+}
+#footer1 .footer-button:hover {
+    background-color: #032436;
+}
+#footer1:before {
+     content: "";
+    background: #033958;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+}
+
+/* FOOTER 2 */
+#footer2 {
+    background-color:#db383c;
+    padding-top:60px;
+}
+#footer2 li{
+    list-style-type: none;
+    margin-left:5px;
+    color:white;
+    font-weight:bold;
+}
+#footer2 li a {
+    color:white;
+    font-weight:bold;    
+}
+#footer2 li a:hover {
+    text-decoration: none;
+    color:#033958;
+    transition: all 0.3s ease-in-out;
+}
+
+
